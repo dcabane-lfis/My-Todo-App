@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class='title'>
+        Ma super TODO liste <span class="material-icons" style="font-size:48px;margin-left:5px;">&#xe86c;</span>
+    </div>
+    <div>
+        <input type="text" class="input" id="newTodo">
+        <button class="button-9" role="button" onclick="addTodo()">Ajouter</button>
+    </div>
+    <div id="todos" style='margin-top:20px'></div>
+</body>
+</html>
